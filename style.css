@@ -1,0 +1,218 @@
+@font-face {
+    font-family: hcomic;
+    src: url(./RSC/hey_comic/Hey\ Comic.otf) format("truetype");
+
+}
+
+@font-face {
+    font-family: coco;
+    src: url(./RSC/cocogoose/Cocogoose\ Pro-trial.ttf);
+}
+
+#logo1 {
+    width: 220px;
+}
+
+#logo2 {
+    width: 220px;
+}
+figcaption {
+    font-family: coco;
+}
+
+h1,
+h2,
+th,
+td {
+    font-family: coco;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./RSC/SVG/Background.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bloc {
+    background-color: white;
+}
+
+h1 {
+    font-family: Satisfy;
+    color: #ffffff;
+}
+
+#moa {
+    color: black;
+}
+
+.nombre {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: solid transparent;
+    font-size: 40px;
+    margin: auto;
+
+}
+
+.nombre div {
+    padding-top: 25%;
+}
+
+#moy {
+    background-color: #4FEC42;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#max {
+    background-color: #EC424F;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#min {
+    background-color: #42BFEC;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer {
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-family: coco;
+}
+
+#headerAccueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 20%;
+
+}
+
+#ephemeride {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1;
+    text-align: center;
+
+}
+
+#jour {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2;
+
+}
+
+#temperature {
+    width: 50%;
+    grid-column: 2/2;
+    grid-row: 1/3;
+    text-align: center;
+
+}
+
+th,
+td {
+    border: solid 1px black;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+td:first-of-type {
+    text-align: center;
+}
+
+fieldset {
+
+    margin: center;
+    width: 70%;
+    color: black;
+    border: 0px;
+}
+form{
+align-items: center;
+}
+
+fieldset>fieldset {
+    margin: auto;
+    width: 70%;
+    border: #3BA9D1 solid 1px;
+    
+}
+
+#logtext {
+    text-align: left;
+    padding-right: 60%;
+}
+
+#ident {
+    text-align: center;
+}
+
+#headerContact {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#logo2{
+   margin-left: -30%;
+}
+
+legend {
+    color: black;
+}
+
+header img {
+    width: 10%;
+}
+
+@media screen and (max-width:986px) {
+    #temperature {
+        font-size: 10px;
+    }
+
+    .nombre {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+h1 {
+    font-family: coco;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

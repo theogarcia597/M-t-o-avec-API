@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ma station météo</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header id="headerAccueil">
+            <img id="logo1" src="./RSC/SVG/Plan de travail 1.svg" alt="soleil">
+        </header>
+        <main>
+            <section id="ephemeride" class="bloc">
+                <h2>Éphéméride</h2>
+                <p id="date"></p>
+                <p id="heure"></p>
+                <p>Le soleil se lève à <span id= "lever">heure</span></p>
+                <p>Et se couche à <span id= "coucher">heure</p>
+                <p id= "saint"></p>
+            </section>
+            <div id="jour" class="bloc">
+                <table>
+                <tr>
+                    <th id="jour0"></th>
+                    <td><img src="" alt="img_jour0" id="img_jour0"></td>
+                    <td id="meteo_jour0"></td>
+                </tr>
+                <tr>
+                    <th id="jour1"></th>
+                    <td><img src="" alt="img_jour1"id="img_jour1"></td>
+                    <td id="meteo_jour1"></td>
+                </tr>
+                <tr>
+                    <th id="jour2"></th>
+                    <td><img src="" alt="img_jour2"id="img_jour2"></td>
+                    <td id="meteo_jour2"></td>
+                </tr>
+                </table>
+            </div>
+            <section id="temperature" class="bloc">
+                <h2>Températures</h2>
+                <div ><figure><div class="nombre" id="min"><div></div></div><figcaption>Min</figcaption></figure></div>
+                <div><figure><div class="nombre" id="moy"><div></div></div><figcaption>Moy</figcaption></figure></div>
+                <div><figure><div class="nombre" id="max"><div> 5 </div></div><figcaption> Max</figcaption></figure></div>
+            </section>
+        </main>
+        <footer>
+            <div id="copyright">&copy;Moâ</div><div id="textebas">&Ccedil;a vous plaît? C'est Théo, Estelle, Aurélie qui l'a fait!</div><div>Contacter <a id="moa" href="./RSC/contact.html">nous</a></div>
+            </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>

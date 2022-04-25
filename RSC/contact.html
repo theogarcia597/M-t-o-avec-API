@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma station météo</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header id="headerContact">
+        <h1 id="logtext">Contact</h1>
+        <img id="logo2" src="./SVG/Plan de travail 1.svg" alt="soleil">
+        
+    </header>
+   
+    <form action="#" method="get">
+        <fieldset>
+            <fieldset>
+                <legend id="ident">Votre identité</legend>
+
+                <div id="nom">
+                    <label for="nom"> Votre nom </label>
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom">
+                </div>
+                <div>
+                    <label for="prenom"> Votre prénom</label>
+                    <input type="text" name="prenom" title="Votre prénom" id="prenom" placeholder="Votre prénom">
+                </div>
+                <div>
+                    <label for="mail">Votre adresse mail</label>
+                    <input type="email" name="email" id="mail" placeholder="votre adresse mail">
+                </div>
+                <div>
+                    <label for="tel">Votre téléphone</label>
+                    <input type="tel" id="tel" placeholder="votre téléphone">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Vos commentaires</legend>
+                <div>
+                    <label for="commentaire"></label>
+                    <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Vous pouvez tout nous transmettre</legend>
+                <div>
+                    <input type="submit" value="Envoyer"><br><br>
+                </div>
+            </fieldset>
+        </fieldset>
+        <datalist id="civilite">
+            <option value="Monsieur">
+            <option value="Madame">
+        </datalist>
+    </form>
+</body>
+
+</html>
